@@ -13,6 +13,6 @@ public class ApplicationOperation extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         PrintWriter printWriter = resp.getWriter();
-        printWriter.println("<h> Приложение запущено и исправно работает! </h>");
+        printWriter.println("<h> Сервлет запущен и исправно работает! </h>");
     }
 }
